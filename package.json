@@ -1,0 +1,19 @@
+{
+	"name": "n3-supabase",
+	"version": "0.0.1",
+	"description": "Supabase with nuxt project",
+	"author": "jpokan",
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare"
+	},
+	"devDependencies": {
+		"@supabase/supabase-js": "^2.33.1",
+		"nuxt": "3.7.0"
+	}
+}
