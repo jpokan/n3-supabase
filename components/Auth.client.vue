@@ -8,6 +8,4 @@
 
 <script setup lang="ts">
 const { $supabase } = useNuxtApp()
-
-console.log($supabase)
 </script>
