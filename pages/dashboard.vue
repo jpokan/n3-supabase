@@ -3,5 +3,7 @@
 </template>
 
 <script setup>
-const user = useSupabaseUser()
+const { $supabase } = useNuxtApp()
+const { data: { user } } = await $supabase.auth.getUser()
+
 </script>
