@@ -1,7 +1,7 @@
 {
 	"name": "n3-supabase",
 	"version": "0.0.1",
-	"description": "Supabase with nuxt project",
+	"description": "Nuxt + supabase template project",
 	"author": "jpokan",
 	"license": "MIT",
 	"private": true,
