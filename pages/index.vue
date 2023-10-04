@@ -5,7 +5,7 @@
 	<div class="flex justify-center h-full p-5 gap-2">
 		<Loading v-if="loading" />
 		<AuthLogout v-else-if="session" @click="signOut" />
-		<AuthProviders v-else @loading="loading = true" />
+		<AuthProviders v-else @signInWithOAuth="loading = true" />
 	</div>
 	<hr>
 </template>

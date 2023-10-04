@@ -10,7 +10,7 @@ import Google from '~/assets/icons/google.svg?component'
 import Github from '~/assets/icons/github.svg?component'
 
 const { $supabase: supabase } = useNuxtApp()
-const emits = defineEmits(['loading'])
+const emit = defineEmits(['signInWithOAuth'])
 
 const providers = [
 	{
@@ -25,7 +25,7 @@ const providers = [
 
 async function providerLogin(provider) {
 	try {
-		emits('loading')
+		emit('signInWithOAuth')
 		supabase.auth.signInWithOAuth({ provider })
 	} catch (error) {
 		console.log(error)

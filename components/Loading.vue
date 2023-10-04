@@ -1,3 +1,3 @@
 <template>
-    <div class="animate-pulse h-10 flex place-items-center">Loading ...</div>
+	<div class="h-10 block w-full"></div>
 </template>
